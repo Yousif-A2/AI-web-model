@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+.webcam-container {
+    display: none; /* Hide the webcam container */
+}
+
+.label-container {
+    text-align: left;
+}
+
+.label-container div {
+    margin-bottom: 5px;
+}
+
+.label-container div:last-child {
+    margin-bottom: 0;
+}
+
+/* ... Previous CSS styles ... */
+
+.image-preview-container {
+    margin: 20px auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#imagePreview {
+    max-width: 100%;
+    max-height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: block;
+}
+
+/* ... Remaining CSS styles ... */
